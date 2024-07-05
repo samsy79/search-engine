@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": ["dom", "dom.iterable", "esnext" ,"scripthost"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -9,6 +9,7 @@
     "module": "esnext",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
+    "types": ["node"],
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
